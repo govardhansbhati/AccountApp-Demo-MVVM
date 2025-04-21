@@ -1,0 +1,179 @@
+{
+    "accounts": [
+        {
+            "accountName": "Current Account",
+            "sortingOrder": 1,
+            "currency": "£",
+            "conversionRate": "0",
+            "cards": [
+                {
+                    "applePayEligible": true,
+                    "cardToken": "c1dedb9541370565653ee34a9e9e0de863492bc524ffa323d3bbbf045e8e9840"
+                },
+                {
+                    "applePayEligible": true,
+                    "cardToken": "ad5b84d978bc563f459f713b0bbe9adf782063eb11559dc306e641890dbe066a"
+                }
+            ],
+            "transactions": [
+                {
+                    "date": "12/01/2022",
+                    "inAmount": "0.00",
+                    "outAmount": "3.49",
+                    "transactionCardToken": "ad5b84d978bc563f459f713b0bbe9adf782063eb11559dc306e641890dbe066a",
+                    "paymentType": "Debit",
+                    "title": "Starbucks",
+                    "uniqueID": "a07c263c1a21c3e1"
+                },
+                {
+                    "date": "12/01/2022",
+                    "inAmount": "0.00",
+                    "outAmount": "6.49",
+                    "transactionCardToken": "ad5b84d978bc563f459f713b0bbe9adf782063eb11559dc306e641890dbe066a",
+                    "paymentType": "Debit",
+                    "title": "McDonalds",
+                    "uniqueID": "4f076202b35e65e0"
+                },
+                {
+                    "date": "13/01/2022",
+                    "inAmount": "0.00",
+                    "outAmount": "39.26",
+                    "transactionCardToken": "c1dedb9541370565653ee34a9e9e0de863492bc524ffa323d3bbbf045e8e9840",
+                    "paymentType": "Debit",
+                    "reference": "Next Homeware Handforth",
+                    "title": "Next",
+                    "uniqueID": "57f5e2f0e72d714c"
+                },
+                {
+                    "date": "13/01/2022",
+                    "inAmount": "0.00",
+                    "outAmount": "149.00",
+                    "transactionCardToken": "ad5b84d978bc563f459f713b0bbe9adf782063eb11559dc306e641890dbe066a",
+                    "paymentType": "Direct Debit",
+                    "title": "Manchester Council",
+                    "uniqueID": "ee408dea45ce0e86"
+                },
+                {
+                    "date": "13/01/2022",
+                    "inAmount": "29.99",
+                    "outAmount": "0.00",
+                    "transactionCardToken": "c1dedb9541370565653ee34a9e9e0de863492bc524ffa323d3bbbf045e8e9840",
+                    "paymentType": "Credit",
+                    "title": "ASOS",
+                    "uniqueID": "440cc12cf2c2a0c2"
+                }
+            ],
+            "uniqueID": "75f1f7c299b630e8"
+        },
+        {
+            "accountName": "Savings Account",
+            "sortingOrder": 3,
+            "currency": "£",
+            "conversionRate": "0",
+            "cards": [],
+            "transactions": [
+                {
+                    "date": "23/01/2022",
+                    "inAmount": "500",
+                    "outAmount": "",
+                    "transactionCardToken": "",
+                    "paymentType": "Credit",
+                    "title": "Savings",
+                    "uniqueID": "a05535a7186b0cc7"
+                },
+                {
+                    "date": "12/01/2022",
+                    "inAmount": "50.00",
+                    "outAmount": "0.00",
+                    "transactionCardToken": "",
+                    "paymentType": "Credit",
+                    "title": "Savings",
+                    "uniqueID": "0d3db21723c972bc"
+                },
+                {
+                    "date": "05/02/2022",
+                    "inAmount": "0.00",
+                    "outAmount": "40.00",
+                    "transactionCardToken": "",
+                    "paymentType": "Debit",
+                    "title": "Savings",
+                    "uniqueID": "71313ae7e1f24ebc"
+                },
+                {
+                    "date": "13/01/2022",
+                    "inAmount": "0.00",
+                    "outAmount": "149.00",
+                    "transactionCardToken": "",
+                    "paymentType": "Credit",
+                    "title": "Savings",
+                    "uniqueID": "d090fc9762401cd4"
+                }
+            ],
+            "uniqueID": "cda4cfb645c7fbc1"
+        },
+        {
+            "accountName": "Euro Account",
+            "sortingOrder": 2,
+            "currency": "€",
+            "conversionRate": "1.1652",
+            "cards": [
+                {
+                    "applePayEligible": true,
+                    "cardToken": "8cafd4b943d10d5a480643e437af39d5094144aae3bb4608932086921fa2c074"
+                },
+                {
+                    "applePayEligible": false,
+                    "cardToken": "71c83bf9f7620c5fc2da83baf647a38e73637380d3f08925061169f7936d8279"
+                }
+            ],
+            "transactions": [
+                {
+                    "date": "20/01/2022",
+                    "inAmount": "0.00",
+                    "outAmount": "6.99",
+                    "transactionCardToken": "71c83bf9f7620c5fc2da83baf647a38e73637380d3f08925061169f7936d8279",
+                    "paymentType": "Debit",
+                    "reference": "Alicante Funfair Inc",
+                    "title": "Alicante Big Wheel",
+                    "uniqueID": "522112576a3825b9"
+                },
+                {
+                    "date": "18/01/2022",
+                    "inAmount": "0.00",
+                    "outAmount": "3.49",
+                    "transactionCardToken": "71c83bf9f7620c5fc2da83baf647a38e73637380d3f08925061169f7936d8279",
+                    "paymentType": "Debit",
+                    "title": "Pret",
+                    "uniqueID": "f0af6c3128b9537d"
+                },
+                {
+                    "date": "12/01/2022",
+                    "inAmount": "0.00",
+                    "outAmount": "67.59",
+                    "transactionCardToken": "8cafd4b943d10d5a480643e437af39d5094144aae3bb4608932086921fa2c074",
+                    "paymentType": "Debit",
+                    "title": "Beachside Surf and Turf",
+                    "uniqueID": "76c31a944fc9788d"
+                },
+                {
+                    "date": "12/01/2022",
+                    "inAmount": "0.00",
+                    "outAmount": "267.49",
+                    "transactionCardToken": "8cafd4b943d10d5a480643e437af39d5094144aae3bb4608932086921fa2c074",
+                    "paymentType": "Debit",
+                    "title": "AirB&B",
+                    "uniqueID": "465edcc7b4ee5a5c"
+                }
+            ],
+            "uniqueID": "40a12fffd8062558"
+        }
+    ],
+    "customerNameDetails": {
+        "forename": "Thomas",
+        "middleName": "Jeffrey",
+        "surname": "Hanks",
+        "title": "Mr"
+    },
+    "dateOfBirth": "09/07/1956",
+    "occupation": "Actor"
+}
