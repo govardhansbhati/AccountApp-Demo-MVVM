@@ -10,9 +10,9 @@ import SwiftUI
 
 struct ContentView: View {
     @StateObject var accountViewModel = AccountViewModel()
-
+    
     let dateFormatter = DateFormatterProvider.getFormatter()
-
+    
     var body: some View {
         NavigationView {
             List {

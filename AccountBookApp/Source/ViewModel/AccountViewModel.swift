@@ -12,7 +12,7 @@ class AccountViewModel: ObservableObject {
     @Published var accounts: [Account] = []
     private var cancellables = Set<AnyCancellable>()
     private let accountService: AccountServiceProtocol
-
+    
     init(accountService: AccountServiceProtocol = AccountService()) {
         self.accountService = accountService
     }

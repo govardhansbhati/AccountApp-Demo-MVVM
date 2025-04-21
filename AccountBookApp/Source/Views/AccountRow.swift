@@ -9,7 +9,7 @@ import SwiftUI
 
 struct AccountRow: View {
     let account: Account
-
+    
     var body: some View {
         VStack(alignment: .leading) {
             ///  Displays the account name in a headline font.
@@ -25,8 +25,8 @@ struct AccountRow: View {
                 }
                 return result
             }.formatted())
-                .font(.subheadline)
-                .foregroundColor(.secondary)
+            .font(.subheadline)
+            .foregroundColor(.secondary)
         }
         .padding(.vertical, 8)
     }

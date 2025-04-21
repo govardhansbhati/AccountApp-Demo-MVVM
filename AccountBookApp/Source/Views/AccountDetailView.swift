@@ -10,7 +10,7 @@ import SwiftUI
 struct AccountDetailView: View {
     let account: Account
     let dateFormatter: DateFormatter
-
+    
     var body: some View {
         List {
             Section(header: Text("Account Details")) {
@@ -27,7 +27,7 @@ struct AccountDetailView: View {
                     }
                 }
             }
-
+            
             Section(header: Text("Transactions")) {
                 ForEach(account.transactions.sorted(by: {
                     
